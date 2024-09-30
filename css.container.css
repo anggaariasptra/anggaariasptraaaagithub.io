@@ -1,0 +1,6 @@
+.container {
+    width: 100%; /* Elemen akan menyesuaikan ukuran layar */
+    max-width: 1200px; /* Tetapi maksimal lebarnya adalah 1200px */
+    margin: 0 auto;
+  }
+  

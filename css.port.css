@@ -1,0 +1,126 @@
+/* Global Styles */
+body {
+    background-color: #121212;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .dark-mode {
+    background-color: #121212;
+    color: white;
+  }
+  
+  .light-mode {
+    background-color: #f8f9fa;
+    color: black;
+  }
+  
+  /* Navbar */
+  .navbar {
+    padding: 15px 30px;
+    background-color: #333;
+  }
+  
+  .navbar-brand {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-toggler {
+    border-color: rgba(255,255,255,.1);
+  }
+  
+  .profile-logo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+  
+  /* Hero Section */
+  .jumbotron {
+    background-color: #222;
+    color: white;
+    padding: 100px 0;
+  }
+  
+  .jumbotron h1 {
+    font-size: 3rem;
+  }
+  
+  .rect-btn {
+    margin: 15px;
+    padding: 15px 30px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    transition: 0.3s;
+  }
+  
+  .rect-btn:hover {
+    background-color: #0056b3;
+    transform: translateY(-3px);
+  }
+  
+  /* Skills Section */
+  .skills-btn {
+    margin: 5px;
+    padding: 10px 30px;
+    border-radius: 30px;
+    font-size: 1.2rem;
+    color: white;
+    background-color: #28a745;
+    transition: background-color 0.3s ease;
+  }
+  
+  .skills-btn:hover {
+    background-color: #218838;
+  }
+  
+  /* Contact Section */
+  .contact-icon {
+    font-size: 32px;
+    color: #007bff;
+    margin-bottom: 10px;
+  }
+  
+  .contact-form input, .contact-form textarea {
+    margin-bottom: 15px;
+    padding: 15px;
+    background-color: #333;
+    border: none;
+    color: white;
+    border-radius: 5px;
+  }
+  
+  .contact-form input::placeholder, .contact-form textarea::placeholder {
+    color: #bbb;
+  }
+  
+  .contact-form button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .contact-form button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #222;
+    padding: 20px;
+    color: white;
+    text-align: center;
+    font-size: 0.9rem;
+  }
+  
+  footer p {
+    margin: 0;
+  }
+  

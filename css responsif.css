@@ -1,0 +1,19 @@
+/* Untuk layar dengan lebar lebih dari 768px (tablet dan desktop) */
+@media screen and (min-width: 768px) {
+    body {
+      font-size: 16px;
+    }
+  }
+  
+  /* Untuk layar dengan lebar lebih kecil dari 768px (smartphone) */
+  @media screen and (max-width: 767px) {
+    body {
+      font-size: 14px;
+    }
+  
+    .container {
+      width: 100%;
+      padding: 0 10px;
+    }
+  }
+  
